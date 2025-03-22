@@ -2,6 +2,9 @@
 Holds some raw data for a smart sales project. Generally, save these files to your project and put them in the data/raw folder. 
 # smart-sales-starter-files
 # Use .venv\Scripts\activate
+# Use git add .
+# Use git commit -m "add BLANK files"
+# Use git push -u origin main
 Starter files to initialize the smart sales project.
 
 -----
