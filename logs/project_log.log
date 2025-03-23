@@ -8,3 +8,41 @@
 2025-03-22 18:05:18.522 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\products_data.csv.
 2025-03-22 18:05:18.523 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\sales_data.csv.
 2025-03-22 18:05:18.524 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-22 19:07:25.394 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-22 19:07:25.394 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\customers_data.csv.
+2025-03-22 19:07:25.397 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\products_data.csv.
+2025-03-22 19:07:25.403 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\sales_data.csv.
+2025-03-22 19:07:25.411 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-22 19:14:16.493 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-22 19:14:16.493 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\customers_data.csv.
+2025-03-22 19:14:16.496 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\products_data.csv.
+2025-03-22 19:14:16.497 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\sales_data.csv.
+2025-03-22 19:14:16.498 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-22 19:25:41.093 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-22 19:25:41.093 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\customers_data.csv.
+2025-03-22 19:25:41.096 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\products_data.csv.
+2025-03-22 19:25:41.097 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\sales_data.csv.
+2025-03-22 19:25:41.098 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-22 19:36:58.427 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-22 19:36:58.427 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\customers_data.csv.
+2025-03-22 19:36:58.430 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\products_data.csv.
+2025-03-22 19:36:58.431 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-jarjarredred\data\raw\sales_data.csv.
+2025-03-22 19:36:58.432 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-22 19:36:58.434 | INFO     | __main__:main:108 - ======================
+2025-03-22 19:36:58.434 | INFO     | __main__:main:109 - STARTING data_prep.py
+2025-03-22 19:36:58.434 | INFO     | __main__:main:110 - ======================
+2025-03-22 19:36:58.434 | INFO     | __main__:main:112 - ========================
+2025-03-22 19:36:58.434 | INFO     | __main__:main:113 - Starting CUSTOMERS prep
+2025-03-22 19:36:58.434 | INFO     | __main__:main:114 - ========================
+2025-03-22 19:36:58.450 | INFO     | __main__:save_prepared_data:104 - Data saved to C:\Projects\smart-store-jarjarredred\data\prepared\customers_data_prepared.csv
+2025-03-22 19:36:58.450 | INFO     | __main__:main:134 - ========================
+2025-03-22 19:36:58.450 | INFO     | __main__:main:135 - Starting PRODUCTS prep
+2025-03-22 19:36:58.450 | INFO     | __main__:main:136 - ========================
+2025-03-22 19:36:58.458 | INFO     | __main__:save_prepared_data:104 - Data saved to C:\Projects\smart-store-jarjarredred\data\prepared\products_data_prepared.csv
+2025-03-22 19:36:58.459 | INFO     | __main__:main:152 - ========================
+2025-03-22 19:36:58.459 | INFO     | __main__:main:153 - Starting SALES prep
+2025-03-22 19:36:58.459 | INFO     | __main__:main:154 - ========================
+2025-03-22 19:36:58.478 | INFO     | __main__:save_prepared_data:104 - Data saved to C:\Projects\smart-store-jarjarredred\data\prepared\sales_data_prepared.csv
+2025-03-22 19:36:58.478 | INFO     | __main__:main:173 - ======================
+2025-03-22 19:36:58.478 | INFO     | __main__:main:174 - FINISHED data_prep.py
+2025-03-22 19:36:58.478 | INFO     | __main__:main:175 - ======================
