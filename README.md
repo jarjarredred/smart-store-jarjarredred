@@ -2,6 +2,8 @@
 Holds some raw data for a smart sales project. Generally, save these files to your project and put them in the data/raw folder. 
 # smart-sales-starter-files
 # Use .venv\Scripts\activate
+# Update/Install Required Packages w/ python -m pip install --upgrade -r requirements.txt
+
 # Use git add .
 # Use git commit -m "add BLANK files"
 # Use git push -u origin main
@@ -59,3 +61,6 @@ py scripts/data_prep.py
 - pyspark==4.0.0.dev1
 - pyspark[sql]
 - git+https://github.com/denisecase/datafun-venv-checker.git#egg=datafun_venv_checker
+
+### Step 3 Update DataScrubber Class
+# Run test script w/ py tests\test_data_scrubber.py
