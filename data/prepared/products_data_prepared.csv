@@ -1,4 +1,4 @@
-ProductID,ProductName,Category,UnitPrice,StockQuantity,Supplier
+productid,productname,category,unitprice,stockquantity,supplier
 101,laptop,Electronics,793.12,851,Alibaba
 102,hoodie,Clothing,39.1,32,Temu
 103,cable,Electronics,22.76,123,Alibaba
