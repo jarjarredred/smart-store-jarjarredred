@@ -6,7 +6,7 @@ CustomerID,Name,Region,JoinDate,LoyaltyPoints,PreferredContactMethod
 1005,Dr Who,North,8/18/2023,1500,Phone
 1006,Tiffany James,South,6/7/2021,400,Email
 1007,Susan Johnson,South,6/30/2023,600,Email
-1008,Tony Stark,North,5/1/2020,200,Phone
+1008,Tony Stark,North,5/1/2020,200,4hone
 1009,Jason Bourne,West,12/1/2020,500,Phone
-1010,Hermione Granger,East,12/9/2022,100,Phone
-1011,Hermione Grager,East,12/9/2022,100,Phone
+1010,Hermione Granger,East,12/9/2022,100,phone
+1011,Hermione Grager,East,12/9/2022,100.50,Phone

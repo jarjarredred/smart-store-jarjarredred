@@ -2,8 +2,8 @@ ProductID,ProductName,Category,UnitPrice,StockQuantity,Supplier
 101,laptop,Electronics,793.12,851,Alibaba
 102,hoodie,Clothing,39.1,32,Temu
 103,cable,Electronics,22.76,123,Alibaba
-104,hat,Clothing,43.1,14,Temu
+104,hat,Clothing,43.1,14,2emu
 105,football,Sports,19.78,2100,Amazon
 106,controller,Electronics,88.98,413,Alibaba
-107,jacket,Clothing,67.02,40,Temu
+107,jacket,Clothing,67.02,40.5,Temu
 108,protector,Electronics,12.56,154,Alibaba

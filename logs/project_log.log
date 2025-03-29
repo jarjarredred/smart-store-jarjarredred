@@ -164,3 +164,120 @@ dtype: int64
 2025-03-26 20:45:43.036 | INFO     | __main__:main:202 - ==================================
 2025-03-26 20:45:43.036 | INFO     | __main__:main:203 - FINISHED prepare_customers_data.py
 2025-03-26 20:45:43.037 | INFO     | __main__:main:204 - ==================================
+2025-03-29 15:04:27.436 | INFO     | __main__:main:162 - ==================================
+2025-03-29 15:04:27.436 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-29 15:04:27.436 | INFO     | __main__:main:164 - ==================================
+2025-03-29 15:04:27.436 | INFO     | __main__:main:166 - Root project folder: C:\Projects\smart-store-jarjarredred
+2025-03-29 15:04:27.436 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\smart-store-jarjarredred\data\raw
+2025-03-29 15:04:27.436 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\smart-store-jarjarredred\data\prepared
+2025-03-29 15:04:27.436 | INFO     | __main__:main:169 - scripts folder: C:\Projects\smart-store-jarjarredred\scripts
+2025-03-29 15:04:27.436 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-29 15:04:27.437 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\smart-store-jarjarredred\data\raw\customers_data.csv
+2025-03-29 15:04:27.448 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-29 15:04:27.448 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, PreferredContactMethod
+2025-03-29 15:04:27.448 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-29 15:04:27.449 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-29 15:04:27.455 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-29 15:04:27.455 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-29 15:04:27.455 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-29 15:04:27.456 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 0
+2025-03-29 15:04:27.456 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 0
+2025-03-29 15:04:27.456 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-29 15:04:27.456 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-29 15:04:27.456 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-29 15:04:27.457 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-29 15:04:27.457 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
+2025-03-29 15:04:27.459 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-jarjarredred\data\prepared\customers_data_prepared.csv
+2025-03-29 15:04:27.459 | INFO     | __main__:main:202 - ==================================
+2025-03-29 15:04:27.459 | INFO     | __main__:main:203 - FINISHED prepare_customers_data.py
+2025-03-29 15:04:27.459 | INFO     | __main__:main:204 - ==================================
+2025-03-29 15:05:18.166 | INFO     | __main__:main:227 - ==================================
+2025-03-29 15:05:18.166 | INFO     | __main__:main:228 - STARTING prepare_products_data.py
+2025-03-29 15:05:18.166 | INFO     | __main__:main:229 - ==================================
+2025-03-29 15:05:18.167 | INFO     | __main__:main:231 - Root project folder: C:\Projects\smart-store-jarjarredred
+2025-03-29 15:05:18.167 | INFO     | __main__:main:232 - data / raw folder: C:\Projects\smart-store-jarjarredred\data\raw
+2025-03-29 15:05:18.170 | INFO     | __main__:main:233 - data / prepared folder: C:\Projects\smart-store-jarjarredred\data\prepared
+2025-03-29 15:05:18.170 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-29 15:05:18.170 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-jarjarredred\data\raw\products_data.csv
+2025-03-29 15:05:18.178 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-29 15:05:18.178 | INFO     | __main__:main:242 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, StockQuantity, Supplier
+2025-03-29 15:05:18.178 | INFO     | __main__:main:243 - Initial dataframe shape: (8, 6)
+2025-03-29 15:05:18.179 | INFO     | __main__:main:252 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, StockQuantity -> stockquantity, Supplier -> supplier
+2025-03-29 15:05:18.179 | INFO     | __main__:remove_duplicates:96 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-29 15:05:18.180 | INFO     | __main__:remove_duplicates:106 - Removed 0 duplicate rows
+2025-03-29 15:05:18.180 | INFO     | __main__:remove_duplicates:107 - 8 records remaining after removing duplicates.
+2025-03-29 15:05:18.180 | INFO     | __main__:handle_missing_values:121 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-29 15:05:18.181 | INFO     | __main__:handle_missing_values:126 - Missing values by column before handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-03-29 15:05:18.181 | INFO     | __main__:handle_missing_values:140 - Missing values by column after handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-03-29 15:05:18.181 | INFO     | __main__:handle_missing_values:141 - 8 records remaining after handling missing values.
+2025-03-29 15:05:18.181 | INFO     | __main__:standardize_formats:188 - FUNCTION START: standardize_formats with dataframe shape=(8, 6)
+2025-03-29 15:05:18.182 | INFO     | __main__:standardize_formats:198 - Completed standardizing formats
+2025-03-29 15:05:18.182 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(8, 6)
+2025-03-29 15:05:18.182 | INFO     | __main__:remove_outliers:174 - Removed 0 outlier rows
+2025-03-29 15:05:18.182 | INFO     | __main__:remove_outliers:175 - 8 records remaining after removing outliers.
+2025-03-29 15:05:18.182 | INFO     | __main__:validate_data:211 - FUNCTION START: validate_data with dataframe shape=(8, 6)
+2025-03-29 15:05:18.182 | INFO     | __main__:validate_data:220 - Data validation complete
+2025-03-29 15:05:18.182 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(8, 6)
+2025-03-29 15:05:18.192 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-jarjarredred\data\prepared\products_data_prepared.csv
+2025-03-29 15:05:18.192 | INFO     | __main__:main:264 - ==================================
+2025-03-29 15:05:18.192 | INFO     | __main__:main:265 - FINISHED prepare_products_data.py
+2025-03-29 15:05:18.192 | INFO     | __main__:main:266 - ==================================
+2025-03-29 15:05:53.367 | INFO     | __main__:main:227 - ==================================
+2025-03-29 15:05:53.367 | INFO     | __main__:main:228 - STARTING prepare_products_data.py
+2025-03-29 15:05:53.367 | INFO     | __main__:main:229 - ==================================
+2025-03-29 15:05:53.367 | INFO     | __main__:main:231 - Root project folder: C:\Projects\smart-store-jarjarredred
+2025-03-29 15:05:53.367 | INFO     | __main__:main:232 - data / raw folder: C:\Projects\smart-store-jarjarredred\data\raw
+2025-03-29 15:05:53.368 | INFO     | __main__:main:233 - data / prepared folder: C:\Projects\smart-store-jarjarredred\data\prepared
+2025-03-29 15:05:53.368 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-29 15:05:53.368 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-jarjarredred\data\raw\products_data.csv
+2025-03-29 15:05:53.371 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-29 15:05:53.371 | INFO     | __main__:main:242 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, StockQuantity, Supplier
+2025-03-29 15:05:53.371 | INFO     | __main__:main:243 - Initial dataframe shape: (8, 6)
+2025-03-29 15:05:53.371 | INFO     | __main__:main:252 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, StockQuantity -> stockquantity, Supplier -> supplier
+2025-03-29 15:05:53.372 | INFO     | __main__:remove_duplicates:96 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-29 15:05:53.373 | INFO     | __main__:remove_duplicates:106 - Removed 0 duplicate rows
+2025-03-29 15:05:53.373 | INFO     | __main__:remove_duplicates:107 - 8 records remaining after removing duplicates.
+2025-03-29 15:05:53.373 | INFO     | __main__:handle_missing_values:121 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-29 15:05:53.373 | INFO     | __main__:handle_missing_values:126 - Missing values by column before handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-03-29 15:05:53.374 | INFO     | __main__:handle_missing_values:140 - Missing values by column after handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-03-29 15:05:53.374 | INFO     | __main__:handle_missing_values:141 - 8 records remaining after handling missing values.
+2025-03-29 15:05:53.374 | INFO     | __main__:standardize_formats:188 - FUNCTION START: standardize_formats with dataframe shape=(8, 6)
+2025-03-29 15:05:53.374 | INFO     | __main__:standardize_formats:198 - Completed standardizing formats
+2025-03-29 15:05:53.375 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(8, 6)
+2025-03-29 15:05:53.375 | INFO     | __main__:remove_outliers:174 - Removed 0 outlier rows
+2025-03-29 15:05:53.375 | INFO     | __main__:remove_outliers:175 - 8 records remaining after removing outliers.
+2025-03-29 15:05:53.375 | INFO     | __main__:validate_data:211 - FUNCTION START: validate_data with dataframe shape=(8, 6)
+2025-03-29 15:05:53.375 | INFO     | __main__:validate_data:220 - Data validation complete
+2025-03-29 15:05:53.375 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(8, 6)
+2025-03-29 15:05:53.377 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-jarjarredred\data\prepared\products_data_prepared.csv
+2025-03-29 15:05:53.377 | INFO     | __main__:main:264 - ==================================
+2025-03-29 15:05:53.377 | INFO     | __main__:main:265 - FINISHED prepare_sales_data.py
+2025-03-29 15:05:53.377 | INFO     | __main__:main:266 - ==================================

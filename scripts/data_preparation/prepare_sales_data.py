@@ -18,7 +18,7 @@ How to Run:
 
 Example (Windows/PowerShell) - do NOT include the > prompt:
 > .venv\Scripts\activate
-> py scripts\data_preparation\prepare_products_data.py
+> py scripts\data_preparation\prepare_sales_data.py
 
 Example (Mac/Linux) - do NOT include the $ prompt:
 $ source .venv/bin/activate

@@ -67,7 +67,7 @@ def read_raw_data(file_name: str) -> pd.DataFrame:
     # Example:
     # logger.info(f"Column datatypes: \n{df.dtypes}")
     # logger.info(f"Number of unique values: \n{df.nunique()}")
-    
+ 
     return df
 
 def save_prepared_data(df: pd.DataFrame, file_name: str) -> None:
