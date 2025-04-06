@@ -281,3 +281,28 @@ dtype: int64
 2025-03-29 15:05:53.377 | INFO     | __main__:main:264 - ==================================
 2025-03-29 15:05:53.377 | INFO     | __main__:main:265 - FINISHED prepare_sales_data.py
 2025-03-29 15:05:53.377 | INFO     | __main__:main:266 - ==================================
+2025-04-04 20:39:28.200 | INFO     | __main__:main:43 - Starting data warehouse creation...
+2025-04-04 20:39:28.203 | INFO     | __main__:create_dw:31 - Data warehouse created successfully.
+2025-04-04 20:39:28.203 | INFO     | __main__:main:45 - Data warehouse creation complete.
+2025-04-04 20:48:03.386 | INFO     | __main__:main:76 - Starting data warehouse creation...
+2025-04-04 20:48:03.397 | INFO     | __main__:create_customer_table:58 - customer table created.
+2025-04-04 20:48:03.397 | ERROR    | __main__:create_dw:42 - An unexpected error occurred: name 'conn' is not defined
+2025-04-04 20:48:03.398 | INFO     | __main__:main:78 - Data warehouse creation complete.
+2025-04-04 20:51:06.640 | INFO     | __main__:main:76 - Starting data warehouse creation...
+2025-04-04 20:51:06.641 | INFO     | __main__:create_customer_table:58 - customer table created.
+2025-04-04 20:51:06.641 | ERROR    | __main__:create_dw:42 - An unexpected error occurred: name 'create_product_table' is not defined
+2025-04-04 20:51:06.642 | INFO     | __main__:main:78 - Data warehouse creation complete.
+2025-04-04 20:53:31.319 | INFO     | __main__:<module>:33 - Existing database data\dw\smart_sales.db deleted.
+2025-04-04 20:53:31.319 | INFO     | __main__:main:115 - Starting data warehouse creation...
+2025-04-04 20:53:31.323 | INFO     | __main__:create_customer_table:48 - customer table created.
+2025-04-04 20:53:31.326 | INFO     | __main__:create_product_table:63 - product table created.
+2025-04-04 20:53:31.329 | INFO     | __main__:create_sale_table:84 - sale table created.
+2025-04-04 20:53:31.329 | INFO     | __main__:create_dw:103 - Data warehouse created successfully.
+2025-04-04 20:53:31.329 | INFO     | __main__:main:117 - Data warehouse creation complete.
+2025-04-06 10:57:12.617 | INFO     | __main__:<module>:33 - Existing database data\dw\smart_sales.db deleted.
+2025-04-06 10:57:12.617 | INFO     | __main__:main:115 - Starting data warehouse creation...
+2025-04-06 10:57:12.621 | INFO     | __main__:create_customer_table:48 - customer table created.
+2025-04-06 10:57:12.623 | INFO     | __main__:create_product_table:63 - product table created.
+2025-04-06 10:57:12.625 | INFO     | __main__:create_sale_table:84 - sale table created.
+2025-04-06 10:57:12.625 | INFO     | __main__:create_dw:103 - Data warehouse created successfully.
+2025-04-06 10:57:12.625 | INFO     | __main__:main:117 - Data warehouse creation complete.
