@@ -61,7 +61,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             DiscountPercent INTEGER,
             PaymentType TEXT,
             FOREIGN KEY (customerid) REFERENCES customer (CustomerID),
-            FOREIGN KEY (productid) REFERENCES product (productID)
+            FOREIGN KEY (productid) REFERENCES product (ProductID)
         )
     """)
 

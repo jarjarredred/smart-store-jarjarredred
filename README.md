@@ -64,3 +64,5 @@ py scripts/data_prep.py
 
 ### Step 3 Update DataScrubber Class
 # Run test script w/ py tests\test_data_scrubber.py
+
+# P4 Created DW. Star Scheme with. Column names may not be consistant due to not catching it in previous modules. Updated column names to reflect the incosistant names.
