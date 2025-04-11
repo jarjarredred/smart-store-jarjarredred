@@ -66,3 +66,11 @@ py scripts/data_prep.py
 # Run test script w/ py tests\test_data_scrubber.py
 
 # P4 Created DW. Star Scheme with. Column names may not be consistant due to not catching it in previous modules. Updated column names to reflect the incosistant names.
+
+# Created SQL query for Top Customers (tried to). Created visualization reports.
+![alt text](<Screenshot 2025-04-10 195323.png>)
+![
+](<Screenshot 2025-04-10 195311.png>)
+![alt text](<Screenshot 2025-04-10 195307.png>)
+![alt text](<Screenshot 2025-04-10 195301.png>)
+![alt text](<Screenshot 2025-04-10 195245.png>)
