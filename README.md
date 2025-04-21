@@ -74,3 +74,21 @@ py scripts/data_prep.py
 ![alt text](<Screenshot 2025-04-10 195307.png>)
 ![alt text](<Screenshot 2025-04-10 195301.png>)
 ![alt text](<Screenshot 2025-04-10 195245.png>)
+
+# Section 1. The Business Goal
+# The business goal is to determine the top grossing product by month. This can be useful to see if advertising needs to be more targeted during certian months.
+# Section 2. Data Source
+# I started with a prepared data and a data warehouse.
+# I used Products table, ProductName; and the Sale table, saleamount, sale date, month year.
+# Section 3. Tools
+# I used python and power bi and measures within power bi.
+# Section 4. Workflow & Logic
+# I needed saleamount totaled by month by each productID
+# If using a graphical tool like Power BI or Tableau Prep, use screenshots to show your work.
+![alt text](<Screenshot 2025-04-21 001131.png>)
+# Section 5. Results
+# The laptops bring in the most money but we will need cost data to determine revenue.
+# Section 6: Suggested Business Action 
+# The company should be aware of their cost of the laptops and if they have a wide margin, they should consider increasing their stock quantity so that they can sell more.
+# Section 7. Challenges
+# I had some challenges with measures in Power BI with syntax errors when trying to convert the date column to a single variable like month.
