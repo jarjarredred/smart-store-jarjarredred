@@ -105,6 +105,7 @@ py scripts/data_prep.py
 ## Used Clustered Bar Chart to represent color-coded product sales by month
 # Section 5. Results (narrative + visualizations)
 ## This analysis shows the popularity of items during each month and may represent marketing efforts or seasonal sale patterns, for example.
+## ![alt text](<Screenshot 2025-04-22 183937.png>)
 # Section 6. Suggested Business Action
 ## The sales data from one single year may not be conducive for any business action. It would be recommended to continue tracking the data for multiple years. However, it could share how effective marketing was per product and category.
 # Section 7. Challenges
