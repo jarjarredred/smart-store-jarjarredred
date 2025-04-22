@@ -75,6 +75,7 @@ py scripts/data_prep.py
 ![alt text](<Screenshot 2025-04-10 195301.png>)
 ![alt text](<Screenshot 2025-04-10 195245.png>)
 
+# Module 6
 # Section 1. The Business Goal
 # The business goal is to determine the top grossing product by month. This can be useful to see if advertising needs to be more targeted during certian months.
 # Section 2. Data Source
@@ -92,3 +93,21 @@ py scripts/data_prep.py
 # The company should be aware of their cost of the laptops and if they have a wide margin, they should consider increasing their stock quantity so that they can sell more.
 # Section 7. Challenges
 # I had some challenges with measures in Power BI with syntax errors when trying to convert the date column to a single variable like month.
+
+# Module 7
+# Section 1. The Business Goal
+## Analyze sale trends of products over time.
+# Section 2. Data Source
+## Sale and Product tables. ProductID SaleAmount SaleDate Category (as drill down) 
+# Section 3. Tools Used
+## Power BI Desktop
+# Section 4. Workflow & Logic
+## Used Clustered Bar Chart to represent color-coded product sales by month
+# Section 5. Results (narrative + visualizations)
+## This analysis shows the popularity of items during each month and may represent marketing efforts or seasonal sale patterns, for example.
+# Section 6. Suggested Business Action
+## The sales data from one single year may not be conducive for any business action. It would be recommended to continue tracking the data for multiple years. However, it could share how effective marketing was per product and category.
+# Section 7. Challenges
+## Instead of showing the total sale amount of each product per month, I wished to show the total sales per product each month. I tried using AI to assist with query and measures but they were not working. I was over thinking it and realized I could use ProductID on the Y-axis instead of SaleAmount.
+# Section 8. Ethical Considerations
+## I think the data is being used responsibly, but there may be a bias depending on how it was reported/captured. I do not recommend the business make decisions based on one year of data especially when they are looking for sale trends, instead they can take this data into consideration and compare it to future years or past years sales.
